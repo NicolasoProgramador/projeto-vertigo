@@ -31,9 +31,7 @@ header {
   
 }
 
-.descricao {
-    
-}
+
 
 
 h1 {
@@ -54,6 +52,11 @@ main {
 
 /* nome da cor, rgb,rgba,hex,hsl,hwb */
 
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .descricao
  p {
@@ -61,3 +64,13 @@ main {
     color: var(--grey-600);
 
  }
+
+ .login label {
+    font-size: 0.875rem;
+    color: var(--grey-800);
+    font-weight: 600;
+
+ }
+
+
+ 
