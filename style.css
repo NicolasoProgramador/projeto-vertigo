@@ -9,6 +9,15 @@
 /* 1rem = 16px */
 
 /* 40px = 2.5rem */
+
+:root {
+    --gray-800: #1E293B;
+    --grey-600: #475569;
+}
+
+/* numero = 20*/
+    /* print(numero) */
+
 header {
     background-image: url(./imagens/bg-mobile.jpg);
     background-size: cover;
@@ -17,9 +26,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+    margin-bottom: 3.7rem;
+  
 }
 
 h1 {
     font-size: 2rem;
+    
 }
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.descricao h1 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+
+/* nome da cor, rgb,rgba,hex,hsl,hwb */
