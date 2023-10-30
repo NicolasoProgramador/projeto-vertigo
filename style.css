@@ -13,6 +13,11 @@ header {
     background-image: url(./imagens/bg-mobile.jpg);
     background-size: cover;
     height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 h1 {
