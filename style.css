@@ -122,13 +122,18 @@ main {
 
 .login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1.6rem;
     width: 100%;
     background: var(--purple);
     border: none;
-     border-radius: 0.25rem;
+    border-radius: 0.25rem;
 
      font-size: 1rem;
      font-weight: 700;
      color: var(--white);
+}
+
+.login > p {
+    
 }
