@@ -135,5 +135,11 @@ main {
 }
 
 .login > p {
-    
+    color: var(--grey-600);
+}
+
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
 }
